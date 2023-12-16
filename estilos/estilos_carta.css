@@ -1,0 +1,17 @@
+body{
+	width: 100%;
+	height: auto;
+}
+.div-col{
+	margin: 40px 0px 60px 0px;
+	width: 80%;
+	height: auto;
+	display: flex;
+}
+.div-col div{
+	width: 40%;
+}
+.fecha{
+	font-weight: bold;
+	margin-bottom: 15px;
+}

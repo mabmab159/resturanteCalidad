@@ -1,0 +1,162 @@
+/* @import url(estilos_generales.css); */
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-dato{
+
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0px;
+  height: 27px; width: 50%;
+  padding: 0px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(45, 45,45,0.2);
+
+
+}
+.dia{
+    font-size: 20px;   
+    margin: 30px 0;
+}
+.titulo{
+    font-size: 25px;
+    margin: 45px 0;
+}
+
+table{
+  margin: 20px auto 100px auto; 
+  border-spacing: 0;
+  padding: 0px 50px;
+
+
+}
+
+th,td{
+  width: 170px;
+  padding: 10px 15px;
+  border: 1px solid #dae1e7;
+
+}
+th{
+  background: #1f4068;
+  font-size: 0.9em;
+  
+  color: #fff;
+
+}
+td{
+  font-size: 0.9em;
+  background:  #fff;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.id{
+  width: 60px;
+}
+.accion{
+  width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.id{
+  width: 60px;
+}
+.accion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscar,.detalle,.modificar, .inhabilitar, .buscar{
+    font-size: 13px;
+    height: 30px;
+    width: 80px;
+    color: #fff;
+    border-radius: 7px;
+    outline: none;
+    border:1px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.agregar{
+    font-size: 13px;
+    height: 35px;
+    width: 140px;
+    color: #fff;
+    border-radius: 7px;
+    outline: none;
+    border:1px solid #000;
+    font-weight: bold;
+    cursor: pointer;  
+}
+
+.buscar,.detalle ,.inhabilitar, .agregar{
+    background: #28abb9;
+}
+.detalle ,.inhabilitar:hover, .agregar:hover{
+    background: #2d6187;
+}
+.modificar:hover, .buscar:hover{
+     background: #cf1b1b;
+}
+.modificar,.buscar {
+    background: #ea5455;
+    margin-right:  20px;
+}
+
+
+.volver{
+    font-size: 20px;
+    height: 60px;
+    width: 220px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    border:1px solid #000;
+    font-weight: bold;
+}
+
+.volver{
+    background: #225EDCFF;
+}
+.volver:hover{
+    background: #323BCCFF;
+}
+
+.text{
+  font-size: 18px;
+  margin: 40px 0;
+}
+.div-input{
+  width: 350px;
+  height: 350px;
+  
+}
+.form-r{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ margin-bottom: 20px; 
+}
+.selectusuario, .selectproducto {
+  height: 30px;
+  width: 180px;
+  outline: none;
+  margin-left: 30px;
+
+}
+.div_btn{
+  margin-bottom: 50px; 
+}

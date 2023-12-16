@@ -1,0 +1,19 @@
+body{
+	width: 100%;
+	height: auto;
+}
+.div-mensaje{
+	margin-top: 100px;
+	width: 50%;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.div-mensaje p a{
+	color: #001AADFF;
+	font-size: 18px;
+
+}

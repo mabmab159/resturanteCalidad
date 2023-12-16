@@ -1,0 +1,24 @@
+body{
+	width: 100%;
+	height: auto;
+}
+.form-inputs{
+	width: 40%;
+	height: 380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 20px;
+	align-items: center;
+}
+label{
+	font-weight: bold;
+}
+.input{
+	width: 320px;
+}
+select{
+	width: 300px;
+	height: 20px;
+	margin-bottom: 50px;
+}

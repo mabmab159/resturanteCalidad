@@ -1,0 +1,40 @@
+body{
+	width: 100%;
+	height: auto;
+}
+.form-carta{
+	height: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.div-col{
+	margin: 40px 0px 90px 0px;
+	width: 80%;
+	height: auto;
+	display: flex;
+}
+.div-col div{
+	width: 40%;
+}
+.div_buscar{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	height: 90px;
+}
+.b2{
+	display: flex;
+	align-items: center;
+
+}
+.buscar{
+	margin-left: 10px;
+}
+.titulo{
+	font-weight: bold;
+}
+.btn{
+	margin: 10px;
+}

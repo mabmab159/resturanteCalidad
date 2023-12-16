@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    width: 1200px;
+    margin: auto;
+    background-color: #c2c4c3;
+}
+h1{
+    margin-top: 50px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+}
+.dia{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.carta{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td{
+    padding: 10px;
+    font-size: 25px;
+    color: #ddd;
+}
+thead{
+    background-color: #9b1920;
+    border-bottom: solid 5px #c5a61c;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #ea7a96;
+    color: white;
+}
+.botones{
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: #0F362D;
+    color: #ddd;
+    text-decoration: none;
+}
+.product{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+.btnActualizarCarta{
+    padding: 15px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #0F362D;
+    font-weight: 600;
+    color: #ddd;
+    cursor: pointer;
+}
